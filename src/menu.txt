@@ -1,0 +1,79 @@
+{"button":[
+  {
+  "name": "人在太悦",
+  "sub_button":  [
+  	 {
+	  "type": "click",
+	  "name": "微官网",
+	  "key":"wgw"
+   },
+     {
+	  "type": "click",
+	  "name": "太悦名片",
+	 "key":"tymp"
+   },
+     {
+	  "type": "click",
+	  "name": "温泉略影",
+	  "key":"wqly"
+   },{
+	  "type": "click",
+	  "name": "探索无锡",
+	  "key":"sswx"
+   }
+  ]
+ },
+  {
+  "name": "在线预订",
+  "sub_button":  [
+  	  {
+    "type": "view",
+    "name": "会员登录",
+    "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxfebd9792a855a8f6&redirect_uri=http%3A%2F%2Fwxpay.gold%2Dfinance.com.cn%2Fwechat%2Fuser%2Flogin.action&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+   },
+      {
+    "type": "view",
+    "name": "haha",
+    "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxfebd9792a855a8f6&redirect_uri=http%3A%2F%2Fwxpay.gold%2Dfinance.com.cn%2Fwechat%2Fuser%2Fhaha.action&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+   },
+      {
+    "type": "click", 
+    "name": "客房预定",
+    "key":"kfyd"
+   },
+      {
+  		"type":"view",
+       "name":"会员申请",
+       "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx5b7493d652383835&redirect_uri=http%3A%2F%2Fwgroup.easybao.com%2Ftywechat4j%2FtoBookingMemCard.action&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+   }, {
+  		"type":"view",
+       "name":"我的订单",
+       "url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx5b7493d652383835&redirect_uri=http%3A%2F%2Fwgroup.easybao.com%2Ftywechat4j%2FmyOrder.action&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+   }
+  ]
+ },
+  {"name": "悦心服务",
+  "sub_button":  [
+  	  {
+    "type": "click",
+    "name": "活动专区",
+    "key":"hdzq"
+   },
+   	  {
+   "type":"click",
+    "name": "天气信息",
+    "key":"tcyd"
+   },
+      {
+    "type":"view",
+    "name": "导航到景区",
+    "url": "http://api.map.baidu.com/geocoder?address=灵山元一温泉&output=html&src=wx"
+   },
+      {
+    "type":"click",
+    "name": "客服专线",
+    "key":"kfzx"
+   }
+  ]
+ }
+]}

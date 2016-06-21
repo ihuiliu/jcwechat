@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,p,img,b{ margin:0; padding:0;}
+html{font-size:62.5%;}
+body {background:#fff; color:#666;font-family:Helvetica;}
+img {border:0px;vertical-align:middle;}
+.article{ padding:3%; position:relative;}
+.article h1{ text-align:center; color:#333;font-size:1.6rem; padding:0.5rem 0}
+.article h2{ color:#333;font-size:1.2rem;}
+.article p{  margin:0 0 5% 0; font-size:1.2rem; line-height:2.2rem; text-indent:2.4rem}
+.article p b{color:#333;} 
+a{ color:#666}
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+nav{ background:#f6792e; color:#fff; text-align:center; font-size:1.7rem; padding:1rem 0}
+
+.about{ padding:0 1.2rem}
+
+.aboutJC{color:#e9f7ff; position:relative}
+.aboutJC img{ width:100%; margin:1.2rem 0 0 0}
+.aboutJC div{position: absolute; z-index:2; top:45%; padding:0 2rem}
+.aboutJC div h2{  font-size:2rem; text-align:center}
+.aboutJC div p{ font-size:1.3rem; line-height:180%;}
+
+.aboutXJ{position:relative;margin:0 0 0 50%}
+.aboutXJ img{width:90%; position:absolute; margin-left:-98%}
+.aboutXJ h2{  font-size:1.4rem; color:#e8ae12}
+.aboutXJ p{ font-size:1.2rem; line-height:160%;}
+
+.teacherList{ margin:0; padding:0}
+.teacherList ul{ list-style:none; padding:0; margin:0}
+.teacherList ul li{ color:#fff; overflow:hidden; zoom:1; clear:both}
+.teacherList ul li img{ width:50%}
+.teacherList ul li div{ width:48%; margin:1.2rem 0 0 0}
+.teacherList ul li div h2{font-size:1.8rem; padding:0.6rem 0}
+.teacherList ul li div p{ font-size:1.2rem; line-height:160%;}
+
+.imgLeft img{ float:left;}
+.imgLeft div{ float:right;}
+.imgLeft div h2{margin:0 0 0 1rem}
+.imgLeft div p{margin:0 0 0 1rem}
+
+.imgRight img{ float:right;}
+.imgRight div{ float:left; text-align:right;}
+.imgRight div h2{margin:0 1rem 0 0}
+.imgRight div p{margin:0 1rem 0 0}
+
+.bgGray{ background:#9a9a9a}
+.bgDeepYellow{ background:#ce800a}
+.bgYellow{ background:#dfa50a}

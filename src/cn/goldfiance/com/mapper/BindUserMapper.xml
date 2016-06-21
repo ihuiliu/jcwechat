@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.goldfiance.com.mapper.BindUserMapper">
+
+	<!-- <insert id="insertAddress" parameterType="cn.com.goldfinance.domain.cms.Address">
+	
+	insert  into  jc_address(custno,name,phone,postcode,province,street)    
+	values (#{custno}, #{name},#{phone},#{postCode},#{province},#{street} )
+	
+	
+	</insert>
+	 -->
+	<select id="getBindUserByOpenid" parameterType="string" resultType="BindUser">
+	
+	select u_openid as openid,u_custno as custno,u_ticket as ticket  from bind_user where u_openid=#{openid}
+		
+ 	 
+	</select>
+	
+	
+	<select id="getBindUserByCustno" parameterType="string" resultType="BindUser">
+	
+	select u_openid as openid,u_custno as custno,u_ticket as ticket  from bind_user where u_custno=#{custno}
+		
+ 	 
+	</select>
+	
+	<insert id="insertBindUser" parameterType="cn.goldfiance.com.domain.BindUser">
+	
+	insert  into  bind_user(u_openid,u_custno,u_ticket)    values (#{openid}, #{custno} ,#{ticket})
+	
+	
+	</insert>
+	
+	<!-- <update id="updateByCustno" parameterType="cn.com.goldfinance.domain.cms.Address">
+	update  jc_address  set name=#{name},phone=#{phone},postcode=#{postCode},province=#{province},street=#{street}
+	
+	where custno=#{custno}
+	
+	</update> -->
+</mapper>
